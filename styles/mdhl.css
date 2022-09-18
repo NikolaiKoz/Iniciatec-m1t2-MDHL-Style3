@@ -1,125 +1,129 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap');
 
 *{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    box-sizing            : border-box;
+    padding               : 0;
+    margin                : 0;
+    font-family           : 'Poppins', sans-serif;
+    font-weight           : 400;
 }
 
 body{
-    /* height: 100vh; */
-    width: 95vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    height                : 100vh;
+    display               : flex;
+    flex-direction        : column;
+    align-items           : center;
 }
 
 /* HEADER */
 
 .header__logoContainer{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display               : flex;
+    align-items           : center;
+    justify-content       : space-between;
 }
 
 /* TITULO y LOGO */
 
 .header__logoContainer img{
-    height: 200px;
+    height                : 200px;
 }
 
 .header__logoContainer h1{
-    font-size: 50px;
-    font-style: italic;
-    font-weight: 600;
+    font-size             : 50px;
+    font-style            : italic;
+    font-weight           : 600;
 }
 
 /* IMAGEN / BANNER */
 
 .header__imgContainer{
-    height: 250px;
-    background-image: url(../assets/img/design1_image1.jpg);
-    background-position: center;
-    border-radius: 10px;
+    height                : 250px;
+    background-image      : url(../assets/img/design1_image1.jpg);
+    background-position   : center;
+    border-radius         : 10px;
+    box-shadow            : rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .header__imgContainer:hover{
-    height: 500px;
-    transition: ease-in-out 0.3s;
+    height                : 500px;
+    transition            : ease-in-out 0.3s;
     /* TRANSITION DE SALIDA RECORDAD */
 }
 
 .header__pageTitle{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    text-align: center;
-    color: white;
-    font-weight: 600;
-    font-size: 18px;
-    background: black;
+    margin-top            : 10px;
+    margin-bottom         : 10px;
+    border-radius         : 10px;
+    text-align            : center;
+    color                 : white;
+    font-weight           : 600;
+    font-size             : 18px;
+    background            : black;
 }
 
 /* NAVBAR */
 
 nav{
-    display: flex;
-    justify-content: space-between;
+    display               : flex;
+    justify-content       : space-between;
 }
 
 nav a{
-    text-decoration: none;
-    font-size: 22px;
-    font-weight: 600;
-    color: black;
-    margin-bottom: 10px;
+    text-decoration       : none;
+    font-size             : 22px;
+    font-weight           : 600;
+    color                 : black;
+    margin-bottom         : 10px;
 }
 
 nav a:hover{
-    background: green;
-    border-radius: 50%;
-    padding: 20px 20px;
-    transition: ease-in-out 0.3s;
+    background            : green;
+    border-radius         : 50%;
+    padding               : 20px 20px;
+    transition            : ease-in-out 0.3s;
 }
 
 nav{
-    width: 500px;
-    margin: 0 auto;
+    width                 : 500px;
+    margin                : 0 auto;
 }
 
 main ul{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    text-align: center;
+    display               : flex;
+    flex-direction        : column;
+    align-content         : center;
+    text-align            : center;
 }
 
 main ul li{
-    margin: 0 auto;
-    max-width: 90%;
-    list-style: none;
+    margin                : 0 auto;
+    max-width             : 90%;
+    list-style            : none;
 }
 main ul li:hover{
-    background: green;
+    background            : green;
 }
 
 main ul li h3{
-    font-weight: 600;
+    font-weight           : 600;
 }
 
 main ul li p{
-    margin-bottom: 20px;
+    margin-bottom         : 20px;
 }
 
 .main__contentContainer{
-    text-align: center;
-    font-size: 22px;
+    text-align            : center;
+    font-size             : 22px;
 }
 
 .main__contentContainer p{
-    margin: 30px 0;
+    margin                : 30px 0;
 }
 
 
